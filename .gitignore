@@ -480,3 +480,27 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# React
+Client/node_modules/
+Client/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+Client/.env
+Client/.env.*
+!Client/.env.example
+
+# .NET generated files
+Backend//bin/
+Backend//obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
